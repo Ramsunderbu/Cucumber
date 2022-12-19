@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verify the functionality for valid username and invalid password",
+        "description": "",
+        "id": "verify-the-login-feature-for-the-facebook;verify-the-functionality-for-valid-username-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15027125700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on facebook login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269297300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters \"ramsunder\" and \"ram12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramsunder\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"ram12345\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87991300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the login feature for the facebook",
+    "description": "",
+    "id": "verify-the-login-feature-for-the-facebook",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sabari/eclipse-workspace/Cucumber/src/test/resources/Facebook.feature",
+    "tags": []
+  }
+]
